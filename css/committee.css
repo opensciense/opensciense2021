@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 15px "Ubuntu", Arial, sans-seriff;
+    background-color: #fff;
+}
+
+#container{
+    position: relative;
+    width: 50%;
+    margin: 3rem auto 0 auto;
+
+    font-size: 16px;
+}
+
+#container #prog-comit, #organizers{
+    margin-top: 2rem;
+    border: 2px solid rgb(207, 203, 203);
+    border-radius: 5px;
+    padding: 2rem;
+    line-height: 2.5rem;
+}
+
+#container #prog-comit h1, #organizers h1{
+    margin-bottom: 2.5rem;
+}

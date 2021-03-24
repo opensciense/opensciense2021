@@ -1,0 +1,69 @@
+.medias{
+    text-align: center;
+}
+
+.medias p{
+    margin-top: 2rem;
+}
+
+.medias .twitter{
+    padding: 10px;
+    border-radius: 0.5rem;
+
+    background-color: #55ACEE;
+    border: 1px solid #2589d6;
+    color: white;
+    text-decoration: none;
+}
+
+.medias .twitter img{
+    position: relative;
+    top: 0.5rem;
+    width: 2rem;
+}
+
+.medias p:last-child{
+    display: inline-block;
+    
+    margin: 4rem 0 1rem;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid #dfdfdf;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+}
+
+#social .dev1, #social .dev2{
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem 2rem;
+
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: 0.5px solid #dfdfdf;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#social a{
+    text-decoration: none;
+}
+
+#social img{
+    width: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+}

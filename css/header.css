@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: center;
+
+    height: 3.3rem;
+
+    background-color: rgb(49, 49, 49);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a{
+    width: 10rem;
+    float: left;
+
+    color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 15px
+}
+
+nav ul a:hover{
+    border-radius: 0.3rem;
+    color: white;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+
+    font-weight: 100;
+    margin-top: 4rem;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+
+    width: 45%;
+    border-radius: 10px;
+    margin: 2rem auto;
+    height: 6rem;
+}
+
+#logo h1{
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+}
