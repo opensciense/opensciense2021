@@ -16,7 +16,7 @@ body{
     font-size: 16px;
 }
 
-#container #prog-comit, #organizers{
+#container #dates, #topics, #guidelines{
     margin-top: 2rem;
     border: 2px solid rgb(207, 202, 202);
     border-radius: 5px;
@@ -24,6 +24,6 @@ body{
     line-height: 2.5rem;
 }
 
-#container #prog-comit h1, #organizers h1{
+#container #dates, #topics, #guidelines h1{
     margin-bottom: 2.5rem;
 }
