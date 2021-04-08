@@ -35,21 +35,3 @@ header h2{
     font-weight: 100;
     margin-top: 4rem;
 }
-
-#logo{
-    display: flex;
-    justify-content: center;
-
-    width: 45%;
-    border-radius: 10px;
-    margin: 2rem auto;
-    height: 6rem;
-}
-
-#logo h1{
-    display: flex;
-    align-items: center;
-
-    color: white;
-    text-decoration: none;
-}
