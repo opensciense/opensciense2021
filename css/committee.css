@@ -16,7 +16,7 @@ body{
     font-size: 16px;
 }
 
-#container #organizers ,#prog-comit{
+#container #organizers ,#prog-comit, #publicity{
     margin-top: 2rem;
     border: 2px solid rgb(207, 202, 202);
     border-radius: 5px;
