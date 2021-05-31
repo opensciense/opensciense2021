@@ -1,9 +1,12 @@
 .medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .medias p{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .medias .twitter{
@@ -16,7 +19,17 @@
     text-decoration: none;
 }
 
-.medias .twitter img{
+.medias .gmail{
+    padding: 10px;
+    border-radius: 0.5rem;
+
+    background-color: rgb(253, 156, 156);
+    border: 1px solid #b45656;
+    color: white;
+    text-decoration: none;
+}
+
+.medias img{
     position: relative;
     top: 0.5rem;
     width: 2rem;
@@ -30,11 +43,12 @@
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    border: 0.5px solid #dfdfdf;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* border: 0.5px solid #dfdfdf; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
 
 #social{
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
