@@ -16,7 +16,7 @@ body{
     font-size: 16px;
 }
 
-#container #dates, #topics, #guidelines{
+#container #dates, #topics, #guidelines, #review{
     margin-top: 2rem;
     border: 2px solid rgb(207, 202, 202);
     border-radius: 5px;
