@@ -20,22 +20,28 @@ body{
     justify-content: center;
 }
 
+#image{
+    /* margin-top: 4.3rem; */
+    margin-top: 8.8rem;
+    height: 133px;
+    width: 800px;
+}
+
 #container img {
-    width: 25rem;
-    height: 25rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 0.3rem;
 }
 
 #key1{
     display: flex;
     margin-left: 10px;
+    margin-bottom: 4rem;
 
-}
+    padding: 0 4.5rem 2rem 4.5rem;
+    border: 2px solid rgb(207, 202, 202);
+    border-radius: 5px;
 
-#image{
-    margin-top: 4.3rem;
-    height: 133px;
-    width: 800px;
 }
 
 #text p{
@@ -45,6 +51,7 @@ body{
 }
 
 #text h2, h3{
+    margin-top: 2rem;
     margin-left: 4rem;
 }
 
