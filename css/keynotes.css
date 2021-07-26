@@ -8,14 +8,43 @@ body{
     background-color: #fff;
 }
 
+#global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#container img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.3rem;
+}
+
 #key1{
-    margin-top: 1rem;
-    margin-left: 10rem;
-    border: 1px solid red;
+    display: flex;
+    margin-left: 10px;
+
 }
 
 #image{
-    margin-top: 3rem;
-    height: 133pixels;
+    margin-top: 4.3rem;
+    height: 133px;
     width: 800px;
 }
+
+#text p{
+    margin-left: 4rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+#text h2, h3{
+    margin-left: 4rem;
+}
+
