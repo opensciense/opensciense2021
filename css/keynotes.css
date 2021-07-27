@@ -17,14 +17,15 @@ body{
 #container{
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 #image{
-    /* margin-top: 4.3rem; */
-    margin-top: 8.8rem;
-    height: 133px;
-    width: 800px;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container img {
@@ -33,7 +34,8 @@ body{
     border-radius: 0.3rem;
 }
 
-#key1{
+
+#key1, #key2{
     display: flex;
     margin-left: 10px;
     margin-bottom: 4rem;
@@ -41,7 +43,6 @@ body{
     padding: 0 4.5rem 2rem 4.5rem;
     border: 2px solid rgb(207, 202, 202);
     border-radius: 5px;
-
 }
 
 #text p{
