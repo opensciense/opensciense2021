@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: center;
 
-    height: 3.3rem;
+    height: 4rem;
 
     background-color: rgb(49, 49, 49);
 }
@@ -10,6 +10,12 @@ nav{
 nav ul{
     display: flex;
     list-style-type: none;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul a{

@@ -6,6 +6,8 @@
 body{
     font: 15px "Ubuntu", Arial, sans-seriff;
     background-color: #fff;
+
+    overflow-x: hidden;
 }
 
 /*general container*/
